@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner{
+	width: 1350px;
+	height: 100px;
+	background-color: #ffcc00;
+	padding-left: 250px;
+	
+}
+
+li{
+	display: inline;
+	color: white;
+	padding: 15px 20px 0 0;
+	margin-right: 30px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+#linea{
+	width: 950px;
+	height: 1px;
+	background-color: gainsboro;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#divi{
+	width: 1000px;
+	height: 5px;
+	background-color: white;
+}
+
+.primero{
+	width: 900px;
+	height: 506px;
+	background-color: white;
+	margin: auto;
+	
+    animation: primero 5s infinite;
+}
+
+@keyframes primero{
+	0%, 30%{
+		background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/A-Ricciardo.jpg");
+	}
+	
+	35%, 65%{
+		background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/grosjean.jpg");
+	}
+	
+	  70%, 100%{
+		  background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/pierre-red.jpg");
+	  }
+}
+
+#lineados{
+	width: 1350px;
+	height: 40px;
+	background-color: white;
+}
+
+#contenedor{
+	width: 900px;
+	height: 700px;
+	background-color: white;
+	margin: auto;
+}
+
+#uno{
+	width: 130px;
+	height: 185px;
+	background-color: black;
+	float: left;
+	margin-left: 52px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/lewis.jpg");
+}
+
+#dos{
+	width: 130px;
+	height: 185px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/bottas.jpg");
+}
+
+#tres{
+	width: 130px;
+	height: 185px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	background: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/vettel.jpg");
+}
+
+#cuatro{
+	width: 130px;
+	height: 185px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/charles.jpg");
+}
+
+#texto{
+	width: 130px;
+	height: 40px;
+	background-color: #FFCC00;
+	overflow: hidden;
+	margin-left: 52px;
+	float: left;
+}
+
+#textodos{
+	width: 130px;
+	height: 40px;
+	background-color: #FFCC00;
+	overflow: hidden;
+	margin-left: 90px;
+	float: left;
+}
+
+#textotres{
+	width: 130px;
+	height: 40px;
+	background-color: #FFCC00;
+	overflow: hidden;
+	margin-left: 90px;
+	float: left;
+}
+
+#textocuatro{
+	width: 130px;
+	height: 40px;
+	background-color: #FFCC00;
+	overflow: hidden;
+	margin-left: 90px;
+	float: left;
+}
+
+#cinco{
+	width: 130px;
+	height: 185px;
+	background-color: black;
+	float: left;
+	margin-left: 52px;
+	margin-top: 50px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/maxv.jpg");
+}
+
+#seis{
+	width: 130px;
+	height: 185px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	margin-top: 50px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/albon2.jpg");
+}
+
+#siete{
+    width: 130px;
+	height: 185px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	margin-top: 50px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/kevin.jpg");
+}
+
+#ocho{
+	 width: 130px;
+	height: 185px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	margin-top: 50px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/ocon.jpg");
+}
+
+#textocinco{
+	width: 130px;
+	height: 40px;
+	background-color: #FFCC00;
+	overflow: hidden;
+	margin-left: 52px;
+	float: left;
+}
+
+#textoseis{
+	width: 130px;
+	height: 40px;
+	background-color: #FFCC00;
+	overflow: hidden;
+	margin-left: 90px;
+	float: left;
+}
+
+#textociete{
+	width: 130px;
+	height: 40px;
+	background-color: #FFCC00;
+	overflow: hidden;
+	margin-left: 90px;
+	float: left;
+}
+
+#textoocho{
+	width: 130px;
+	height: 40px;
+	background-color: #FFCC00;
+	overflow: hidden;
+	margin-left: 90px;
+	float: left;
+}
+
+#dividos{
+	width: 1350px;
+	height: 10px;
+	background-color: white;
+	overflow: hidden;
+}
+
+h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 45;
+	color: gray;
+}
+
+#lineatres{
+	width: 950px;
+	height: 1px;
+	background-color: gainsboro;
+	margin: auto;
+}
+
+#bannerfinal{
+	width: 950px;
+	height: 50px;
+	background-color: white;
+	margin: auto;
+}
+
+#redes{
+	width: 355px;
+	height: 50px;
+	background-color: white;
+	float: left;
+	border-right: 1px solid gainsboro;
+}
+
+#pri{
+	width: 30px;
+}
+
+#seg{
+	width: 30px;
+}
+
+#ter{
+	width: 30px;
+}
+#otros{
+	width: 594px;
+	height: 50px;
+	background-color: white;
+	float: left;
+}
+
+@media screen and (max-width: 500px){
+	#banner,
+	#contenedor,
+	#bannerfinal{
+		width: 100%;
+		float: none;
+	}
+	
+}

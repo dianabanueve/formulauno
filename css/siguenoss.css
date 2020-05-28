@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner{
+	width: 1350px;
+	height: 100px;
+	background-color: #ffcc00;
+	padding-left: 240px;
+	
+}
+
+li{
+	display: inline;
+	color: white;
+	padding: 15px 20px 0 0;
+	margin-right: 30px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#linea{
+	width: 950px;
+	height: 1px;
+	background-color: gainsboro;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#divi{
+	width: 1350px;
+	height: 5px;
+	background-color: white;
+}
+
+#uno{
+	color: gainsboro;
+	margin: auto;
+	margin-top: 80px;
+
+}
+
+#dos{
+	color: gray;
+	font-size: 20px;
+}
+
+#tres{
+	color: gray;
+	font-size: 20px;
+}
+
+#cuatro{
+	color: gray;
+	font-size: 20px;
+}
+
+
+#bannerfinal{
+	width: 950px;
+	height: 50px;
+	background-color: white;
+	margin: auto;
+	
+}
+
+#redes{
+	width: 355px;
+	height: 50px;
+	background-color: white;
+	float: left;
+	border-right: 1px solid gainsboro;
+	border-top: 1px solid gainsboro;
+}
+
+#otros{
+	width: 594px;
+	height: 50px;
+	background-color: white;
+	float: left;
+	border-top: 1px solid gainsboro;
+}
+
+#pri{
+	width: 30px;
+}
+
+#seg{
+	width: 30px;
+}
+
+#ter{
+	width: 30px;
+}
+
+@media screen  and (max-width: 500px){
+	#banner,
+	#form1,
+	#bannerfinal{
+		width: 100%;
+		float: none;
+	}
+	
+}

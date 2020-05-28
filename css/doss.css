@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner{
+	width: 1350px;
+	height: 100px;
+	background-color: #ffcc00;
+	padding-left: 200px;
+}
+
+li{
+	display: inline;
+	color: white;
+	padding: 15px 20px 0 0;
+	margin-right: 30px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+	
+#linea{
+	width: 1000px;
+	height: 1px;
+	background-color: gainsboro;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#divi{
+	width: 1350px;
+	height: 5px;
+	background-color: white;
+}
+
+#contenedor{
+	width: 960px;
+	height: 1200px;
+	background-color: white;
+	margin: auto;
+}
+
+#uno{
+	width: 475px;
+	height: 267px;
+	background-color: brown;
+	float: left;
+	border: 0.5px solid gainsboro;
+	
+	
+}
+
+#dos{
+	width: 475px;
+	height: 267px;
+	background-color: blue;
+	float: left;
+	border: 0.5px solid gainsboro;
+}
+
+#separa{
+	width: 952px;
+	height: 20px;
+	background-color: white;
+	overflow: hidden;
+}
+
+h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 45;
+	color: gray;
+}
+
+#sig{
+	width: 340px;
+	height: 350px;
+	background-color: white;
+	float: left;
+	margin-right: 8px;
+}
+
+#imag{
+	width: 612px;
+	height: 340px;
+	background-color: red;
+	float: left;
+}
+
+#ganador{
+	width: 612px;
+	height: 344px;
+	background-color: yellow;
+	overflow: hidden;
+	padding: 20px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/hamilton-celebrando.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+#tex{
+	width: 292px;
+	height: 344px;
+	background-color: white;
+	float: right;
+	margin: 4px;
+}
+
+#divisor{
+	width: 952px;
+	height: 30px;
+	background-color: white;
+	overflow: hidden;
+}
+
+#lineatres{
+	width: 950px;
+	height: 1px;
+	background-color: gainsboro;
+}
+
+#bannerfinal{
+	width: 950px;
+	height: 40px;
+	background-color: white;
+	
+}
+
+#redes{
+	width: 355px;
+	height: 40px;
+	border-right: 1px solid gainsboro;
+	float: left;
+}
+
+#pri{
+	width: 30px;
+}
+
+#seg{
+	width: 30px;
+}
+
+#ter{
+	width: 30px;
+}
+
+#otros{
+	width: 594px;
+	height: 40px;
+	float: right;
+}
+
+@media screen  and (max-width: 500px){
+	#banner,
+	#contenedor,
+	#bannerfinal{
+		width: 100%;
+		float: none;
+	}
+}
+

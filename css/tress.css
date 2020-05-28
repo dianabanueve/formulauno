@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner{
+	width: 1350px;
+	height: 100px;
+	background-color: #ffcc00;
+	padding-left: 180px;
+	
+}
+
+li{
+	display: inline;
+	color: white;
+	padding: 15px 20px 0 0;
+	margin-right: 30px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#divi{
+	width: 1350px;
+	height: 10px;
+	background-color: white;
+}
+
+#linea{
+	width: 1000px;
+	height: 1px;
+	background-color: gainsboro;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#contenedor{
+	width: 1000px;
+	height: 1100px;
+	background-color: white;
+	margin: auto;
+}
+
+#primera{
+	width: 60%;
+	height: 338px;
+	background-color: white;
+	float: left;
+	margin-right: 10px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/hamilton2%7D.jpg");
+}
+
+h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 45;
+	color: gray;
+}
+
+#texto{
+	width: 39%;
+	height: 338px;
+	background-color: white;
+	float: left;
+}
+
+#div2{
+	width: 100%;
+	height: 20px;
+	background-color: white;
+	overflow: hidden;
+}
+
+#texto2{
+	width: 96%;
+	height: 100px;
+	background-color: white;
+	margin: auto;
+	overflow: hidden;
+}
+
+#perry{
+	width: 480px;
+	height: 270px;
+	background-color: white;
+	float: left;
+	
+}
+
+#accidente{
+	width: 480px;
+	height: 270px;
+	background-color: white;
+	float: left;
+	margin-left: 30px;
+}
+
+#text3{
+	width: 400px;
+	height: 100px;
+	background-color: white;
+	float: left;
+	padding-left: 30px;
+	
+	
+}
+
+#text4{
+	width: 400px;
+	height: 100px;
+	background-color: white;
+	float: left;
+	padding-left: 120px;
+	
+	
+}
+
+#video{
+	width: 480px;
+	height: 270px;
+	background-color: white;
+	float: left;
+}
+
+
+
+#lineatres{
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	overflow: hidden;
+}
+
+#lineafin{
+	width: 1000px;
+	height: 1px;
+	background-color: gainsboro;
+	margin: auto;
+}
+
+#bannerfinal{
+	width: 950px;
+	height: 40px;
+	background-color: white;
+	
+}
+
+#redes{
+	width: 355px;
+	height: 40px;
+	border-right: 1px solid gainsboro;
+	float: left;
+}
+
+#pri{
+	width: 30px;
+}
+
+#seg{
+	width: 30px;
+}
+
+#ter{
+	width: 30px;
+}
+
+#otros{
+	width: 594px;
+	height: 40px;
+	float: right;
+}
+
+#videodos {
+    float: left;
+    width: 400px;
+	padding-left: 70px;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 500px){
+	#banner,
+	#contenedor,
+	#bannerfinal{
+		width: 100%;
+		float: none;
+	}
+}

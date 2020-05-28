@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner{
+	width: 1350px;
+	height: 100px;
+	background-color: #ffcc00;
+	padding-left: 210px;
+	
+}
+
+li{
+	display: inline;
+	color: white;
+	padding: 15px 20px 0 0;
+	margin-right: 30px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#linea{
+	width: 1350px;
+	height: 5px;
+}
+
+.uno{
+	width: 950px;
+	height: 440px;
+	background-color: white;
+	margin: auto;
+	
+	background-size: 100% 100%;
+	animation: uno 10s infinite;
+	
+}
+
+@keyframes uno{
+	0%, 30%{
+		background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/defi.jpg");
+		}
+	
+	35%, 65%{
+		background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/ter.jpg");
+		}
+	
+	
+	70%, 100%{
+		background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/diario-as.jpg");
+		
+	}
+}
+
+#lineados{
+	width: 1350px;
+	height: 40px;
+}
+
+#dos{
+	width: 1272px;
+	height: 900px;
+	background-color: white;
+	margin: auto;
+	}
+
+h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 45;
+	color: gray;
+	
+}
+
+#cuadro{
+	width: 400px;
+	height: 267px;
+	background-color: white;
+	float: left;
+	border: 12px solid white;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/accidente-nico-2018.jpg");
+}
+
+#cuadrodos{
+	width: 400px;
+	height: 267px;
+	background-color: white;
+	float: left;
+	border: 12px solid white;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/campeon-2019.jpg");
+}
+
+#cuadrotres{
+	width: 400px;
+	height: 267px;
+	background-color: white;
+	float: left;
+	border: 12px solid white;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/alemania-2019.jpg");
+}
+
+#texto{
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	overflow: hidden;
+	border: 12px solid white;
+	float: left;
+	
+}
+
+#textodos{
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	border: 12px solid white;
+	float: left;
+}
+
+#textotres{
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	border: 12px solid white;
+	float: left;
+	
+}
+
+#gif{
+	width: 480px;
+	height: 270px;
+	background-color: white;
+	overflow: hidden;
+	margin-left: 90px;
+	float: left
+}
+
+#gig{
+	width: 480px;
+	height: 270px;
+	background-color: white;
+	float: left;
+	margin-left: 130px;
+	
+}
+
+#lineatres{
+	width: 1100px;
+	height: 1px;
+	background-color: gainsboro;
+	overflow: hidden;
+	margin: auto;
+	
+}
+
+#bannerfinal{
+	width: 1100px;
+	height: 50px;
+	margin: auto;
+	background-color: white;
+}
+
+#redes{
+	width: 350px;
+	height: 50px;
+	background-color: white;
+	float: left;
+	border-right: 1px solid gainsboro;
+	
+}
+
+#pri{
+	width: 30px;
+}
+
+#seg{
+	width: 30px;
+}
+
+#ter{
+	width: 30px;
+}
+
+
+#creditos{
+	width: 749px;
+	height: 50px;
+	background-color: white;
+	float: left;
+}
+
+#diana{
+	color: gray;
+}
+
+#sigui{
+	color: gray;
+}
+
+@media screen and (max-width: 500px){
+	#banner,
+	#uno,
+	#dos,
+	#bannerfinal{
+		width: 100%;
+		float: none;
+	}
+}

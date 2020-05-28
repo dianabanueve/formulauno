@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner{
+	width: 1350px;
+	height: 100px;
+	background-color: #ffcc00;
+	padding-left: 230px;
+}
+
+li{
+	display: inline;
+	color: white;
+	padding: 15px 20px 0 0;
+	margin-right: 30px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#linea{
+	width: 1000px;
+	height: 1px;
+	background-color: gainsboro;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#divi{
+	width: 1350px;
+	height: 5px;
+	background-color: white;
+}
+
+#contenedor{
+	width: 900px;
+	height: 823px;
+	background-color: white;
+	margin: auto;
+	
+ }
+
+h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 45;
+	color: gray;
+}
+h2{
+	color: gray;
+}
+#lineados{
+	width: 1000px;
+	height: 20px;
+	background-color: white;
+}
+
+#primero{
+	width: 135px;
+	height: 90px;
+	background-color: black;
+	float: left;
+	margin-left: 40px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/mercedes.jpg");
+	border: 1px solid gainsboro;
+	
+}
+
+#segundo{
+	width: 135px;
+	height: 90px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/Ferrari.jpg");
+	border: 1px solid gainsboro;
+}
+
+#tercero{
+	width: 135px;
+	height: 90px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/Red-bull.jpg");
+	border: 1px solid gainsboro;
+	
+}
+
+#cuarto{
+	width: 135px;
+	height: 90px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/renault.jpg");
+	border: 1px solid gainsboro;
+	
+}
+
+#quinto{
+	width: 135px;
+	height: 90px;
+	background-color: black;
+	float: left;
+	margin-left: 40px;
+	margin-top: 40px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/force-indiaracing.jpg");
+	border: 1px solid gainsboro;
+}
+
+#seis{
+	width: 135px;
+	height: 90px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	margin-top: 40px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/hass.jpg");
+	border: 1px solid gainsboro;
+}
+
+#siete{
+	width: 135px;
+	height: 90px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	margin-top: 40px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/mclaren.jpg");
+	border: 1px solid gainsboro;
+}
+
+#ocho{
+	width: 135px;
+	height: 90px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	margin-top: 40px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/williams.jpg");
+	border: 1px solid gainsboro;
+}
+
+#nueve{
+	width: 135px;
+	height: 90px;
+	background-color: black;
+	float: left;
+	margin-left: 40px;
+	margin-top: 40px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/Alfa-romeo.jpg");
+	border: 1px solid gainsboro;
+	
+}
+
+#diez{
+	width: 135px;
+	height: 90px;
+	background-color: black;
+	float: left;
+	margin-left: 90px;
+	margin-top: 40px;
+	background-image: url("file:///C:/Users/A515-52-734S/Desktop/Formula%20uno/Imagenes/Toro-rosso.jpg");
+	border: 1px solid gainsboro;
+}
+
+#lineacuatro{
+	width: 1000px;
+	height: 20px;
+	background-color: white;
+	overflow: hidden;
+}
+
+#lineacinco{
+	width: 1000px;
+	height: 20px;
+	background-color: white;
+}
+
+
+#divisor{
+	width: 950px;
+	height: 1px;
+	background-color: gainsboro;
+	margin: auto;
+}
+
+#bannerfinal{
+	width: 950px;
+	height: 50px;
+	background-color: white;
+	margin: auto;
+}
+
+#redes{
+	width: 355px;
+	height: 50px;
+	background-color: white;
+	float: left;
+	border-right: 1px solid gainsboro;
+}
+
+#otros{
+	width: 594px;
+	height: 50px;
+	background-color: white;
+	float: left;
+}
+
+#pri{
+	width: 30px;
+}
+
+#seg{
+	width: 30px;
+}
+
+#ter{
+	width: 30px;
+}
+
+@media screen and (max-width: 500px){
+	#banner,
+	#contenedor,
+	#bannerfinal{
+		width: 100%;
+		float: none;
+	}
+}

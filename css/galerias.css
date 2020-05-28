@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner{
+	width: 1350px;
+	height: 100px;
+	background-color: #ffcc00;
+	padding-left: 250px;
+	
+}
+
+li{
+	display: inline;
+	color: white;
+	padding: 15px 20px 0 0;
+	margin-right: 30px;
+}
+
+#linea{
+	width: 1000px;
+	height: 1px;
+	background-color: gainsboro;
+	margin: auto;
+	margin-top: 10px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#divi{
+	width: 1350px;
+	height: 5px;
+	background-color: white;
+}
+
+#contenedor{
+	width: 1000px;
+	height: 1000px;
+	background-color: white;
+	margin: auto;
+}
+
+#uno{
+	width: 480px;
+	height: 270px;
+	background-color: white;
+	float: left;
+	margin-left: 10px;
+}
+
+#dos{
+	width: 480px;
+	height: 270px;
+	background-color: white;
+	float: left;
+	margin-left: 20px;
+}
+
+#texto1{
+	width: 480px;
+	height: 40px;
+	background-color: white;
+	float: left;
+	margin-left: 15px;
+}
+
+#textodos{
+	width: 480px;
+	height: 40px;
+	background-color: white;
+	float: left;
+	margin-left: 25px;
+}
+
+#tres{
+	width: 480px;
+	height: 270px;
+	background-color: white;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+#cuatro{
+	width: 480px;
+	height: 270px;
+	background-color: white;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#textotres{
+	width: 480px;
+	height: 40px;
+	background-color: white;
+	float: left;
+	margin-left: 15px;
+}
+
+#textocuatro{
+	width: 480px;
+	height: 40px;
+	background-color: white;
+	float: left;
+	margin-left: 25px;
+}
+
+#ima1{
+	width: 480px;
+	height: 270px;
+	background-color: white;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+#video{
+	width: 480px;
+	height: 270px;
+	background-color: white;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#textoseis{
+	width: 480px;
+	height: 40px;
+	background-color: white;
+	float: left;
+	margin-left: 15px;
+}
+
+#textosiete{
+	width: 480px;
+	height: 40px;
+	background-color: white;
+	float: left;
+	margin-left: 25px;
+}
+
+#lineatres{
+	width: 950px;
+	height: 1px;
+	background-color: gainsboro;
+	margin: auto;
+}
+
+#bannerfinal{
+	width: 950px;
+	height: 50px;
+	background-color: blue;
+	margin: auto;
+}
+
+#redes{
+	width: 355px;
+	height: 50px;
+	background-color: white;
+	float: left;
+	border-right: 1px solid gainsboro;
+}
+
+#otros{
+	width: 594px;
+	height: 50px;
+	background-color: white;
+	float: left;
+}
+
+#pri{
+	width: 30px;
+}
+
+#seg{
+	width: 30px;
+}
+
+#ter{
+	width: 30px;
+}
+
+@media screen and (max-width: 500px){
+	#banner,
+	#contenedor,
+	#bannerfinal{
+		width: 100%;
+		float: none;
+	}
+}
